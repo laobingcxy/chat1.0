@@ -1,0 +1,148 @@
+.name_right {
+    margin-left: 310px;
+}
+
+.name_left {
+    margin-left: 10px;
+}
+
+.content_right {
+
+    word-wrap: break-word;
+    width: 50%;
+    margin-left: 150px;
+    font-size: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.content_left {
+    word-wrap: break-word;
+    width: 50%;
+    margin-left: 60px;
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.url_right {
+    margin-left: 10px;
+
+}
+
+.url-left {
+    margin-left: 15px;
+
+}
+
+::-webkit-scrollbar {
+    height: 10px !important;
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border-style: dashed;
+    background-color: #DCE1E6;
+    border-color: #e2242400;
+    border-width: 1px;
+    background-clip: padding-box;
+}
+
+
+
+::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    /*border-radius: 10px;*/
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 165, 183, 0.7)
+}
+
+
+.word-break {
+    word-break: break-all;
+}
+
+
+.infinite-list-wrapper p {
+    text-align: center;
+}
+
+
+.show-input-content {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.emotion {
+    width: 22px !important;
+    height: 22px !important;
+    margin-right: 4px;
+    line-height: 40px;
+    top: 5px;
+
+}
+
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.talk {
+    border: 1px solid #DCE1E6;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.talk-header {
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    border-bottom: 1px solid #DCE1E6;
+}
+
+.talk-header-icon {
+    padding-left: 330px;
+}
+
+.talk-content {
+    overflow-y: auto;
+    height: 350px;
+}
+
+.talk-message {
+    border-top: 1px solid #DCE1E6;
+    height: 35px;
+    display: flex;
+}
+
+.talk-message-face {
+    width: 40px;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.talk-message-content {
+    padding-top: 10px;
+    width: 280px;
+
+
+}
+
+.talk-message-send {
+    padding-top: 20px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
