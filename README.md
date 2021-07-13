@@ -2,7 +2,6 @@
 
 
 
-[TOC]
 
 ![volcano](https://github.githubassets.com/images/icons/emoji/unicode/1f30b.png)[项目功能演示地址](https://www.yuque.com/yingwenerjie/er48g3/ruzb6h)
 
@@ -12,7 +11,7 @@
 
 **集成微信官方表情包 完整的实现文档 Vue3 聊天框基本功能**
 
-![image](https://cdn.jsdelivr.net/gh/laobingcxy/img/20210713225834)
+![image](https://cdn.jsdelivr.net/gh/laobingcxy/img/0f4b9e907ceb1500a122089cffe1675f)
 
 
 
