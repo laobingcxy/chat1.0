@@ -11,7 +11,9 @@
 
 **集成微信官方表情包 完整的实现文档 Vue3 聊天框基本功能**
 
-![image](https://cdn.jsdelivr.net/gh/laobingcxy/img/0f4b9e907ceb1500a122089cffe1675f)
+
+
+![image.png](https://cdn.nlark.com/yuque/0/2021/png/2442600/1626078324525-7c2a91d8-488e-44e6-abfa-8669a0dbca58.png)
 
 
 
@@ -48,12 +50,22 @@
 
 
 
-
 ## 聊天消息始终保持最新思路
 
 让滚动条始终置底，就是展示最新内容的实现思路，这里我们不赘述具体知识点，以下为关键代码：
 
 ![image-20210713230417805](https://cdn.jsdelivr.net/gh/laobingcxy/img/20210713230417)
+
+
+
+```vue
+       scrollToBottom() {
+            this.$nextTick(() => {
+                let box = this.$el.querySelector(".talk-content")
+                box.scrollTop = box.scrollHeight
+            })
+        }
+```
 
 
 
